@@ -1,0 +1,115 @@
+h1{
+    display: block;
+    font-size: 75px;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.Donate-Now-section{
+    background-image: url(img01-donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-position: center;
+}
+.Donate-Now{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+}
+
+.Link-Button{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    
+}
+.Donate-Today{
+    text-align: center;
+}
+.Amount{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Amount-Decoration{
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 10px 30px;
+    background-color: aqua;
+
+}
+.Textrea-part{
+    text-align: center;
+}
+.textarea{
+    border: none;
+    resize: none;
+    outline: none;
+}
+hr{
+    width: 40%;
+}
+.Donate-Plan-Section{
+    text-align: center;
+}
+.Donate-Plan-Container{
+    display: flex;
+}
+.Donate-Item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 40px rgb(243 117 117);
+    background-color: rgb(215, 235, 215);
+}
+
+.Form-Area{
+    width: 30%;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding: 10%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px rgb(243 117 117);
+    background-color: rgb(238, 225, 235);
+}
+.Submit-Button{
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border-style: solid;
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(0, 3%, 8%);
+    color: rgb(231, 116, 116);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    display: block;
+}
+section{
+    display: block;
+}
